@@ -1,0 +1,56 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js / Frontend
+node_modules/
+hreasy/node_modules/
+hreasy/dist/
+hreasy/dist-ssr/
+hreasy/*.local
+
+# Local Configuration & Secrets
+.env
+.env.*
+*.env
+backend/.env
+backend/.env.*
+hreasy/.env
+hreasy/.env.*
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+backend/*.db
+
+# Media & Recordings
+*.webm
+*.mp4
+backend/static/recordings/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editors & System
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
