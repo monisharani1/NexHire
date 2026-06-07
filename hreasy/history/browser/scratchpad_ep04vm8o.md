@@ -1,0 +1,24 @@
+# Verification Checklist
+
+- [x] Verify Sign In / Sign Up gateway loads at http://localhost:5173/
+- [x] Authenticate using Developer Quick Login panel (e.g., Marcus Sterling)
+- [x] Profile menu actions:
+  - [x] Open profile menu
+  - [x] Toggle Dark Theme (verify visual change)
+  - [x] Toggle Light Theme (verify back to light)
+- [x] Navigation history checks:
+  - [x] Click 'Employees' in sidebar (URL: http://localhost:5173/#/employees)
+  - [x] Click 'Teams' in sidebar (URL: http://localhost:5173/#/teams)
+  - [x] Press browser back (URL: http://localhost:5173/#/employees)
+  - [x] Press browser back (URL: http://localhost:5173/#/dashboard)
+- [x] Onboarding flow verification:
+  - [x] Navigate to Onboarding Portal
+  - [x] Fill form: Name 'Liam Henderson', Email 'l.henderson@enterprise.com', Role 'QA Automation', Department 'Engineering'
+  - [x] Click 'Register New Hire'
+  - [x] Verify Liam Henderson is selected in onboarding portal
+  - [x] Click 'Generate AI Checklist' & wait for milestones to generate
+- [x] Logout & Access Control verification:
+  - [x] Open profile menu, click 'Log Out'
+  - [x] Login as 'Charlie Brown' (Regular Employee)
+  - [x] Verify header has no 'Role Preview' switcher widget
+  - [x] Verify sidebar does not show payroll, analytics, or settings pages

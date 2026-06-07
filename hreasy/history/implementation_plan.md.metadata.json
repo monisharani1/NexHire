@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Detailed design for implementing URL hash routing (for back-button support), a new Onboarding register-for-new-hire form, and a dedicated Sign-In/Sign-Up gateway page with demo credentials.",
+  "updatedAt": "2026-06-05T05:39:51.667535900Z",
+  "requestFeedback": true
+}

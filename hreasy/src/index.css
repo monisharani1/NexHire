@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Outfit', sans-serif;
+    @apply bg-palette-3 text-palette-1 antialiased transition-colors duration-300;
+  }
+}
+
+/* Custom scrollbars for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #E9F2F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9CC4E4;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3A89C9;
+}
+
+/* Glassmorphism panel class */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(156, 196, 228, 0.3);
+}
+
+/* Shimmer animation for loading or simulated scanning */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, #E9F2F9 25%, #9CC4E4 50%, #E9F2F9 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}
+
+/* Glow effects */
+.glow-primary {
+  box-shadow: 0 0 15px rgba(58, 137, 201, 0.3);
+}
+
+.glow-accent {
+  box-shadow: 0 0 15px rgba(242, 108, 79, 0.3);
+}
+
+/* Custom cards styling */
+.premium-card {
+  @apply bg-white rounded-2xl shadow-sm border border-palette-2/20 hover:shadow-md hover:border-palette-2/40 transition-all duration-300;
+}

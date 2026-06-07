@@ -1,0 +1,32 @@
+# Verification Plan
+
+- [x] Open http://localhost:5173/ and verify page loads
+- [x] Inspect layout, typography, and theme styling:
+  - [x] Deep Navy text/sidebar
+  - [x] Ice Blue background
+  - [x] Soft Sky Blue borders
+  - [x] Bright Blue action buttons
+  - [x] Coral Orange highlights
+- [x] Verify Dashboard view:
+  - [x] Metrics cards
+  - [x] Charts (verified on Analytics and other pages)
+  - [x] AI Insights section
+- [x] Verify Role Switcher dynamically filters Sidebar options:
+  - [x] HR
+  - [x] Admin
+  - [x] Team Lead
+  - [x] Employee
+  - [x] Candidate
+- [x] HR/Admin Role Verification:
+  - [x] Employees Page: search, filters, employee list
+  - [x] Teams Page: team cards, simulated delay risk
+  - [x] Recruitment Page: upload candidate application, ATS ranking list
+  - [x] Leave Management: view requests, AI workload recommendations
+  - [x] Payroll: spreadsheet layout, anomaly alerts, charts
+  - [x] Analytics: charts
+- [x] Candidate Role Verification:
+  - [x] AI Interview Page: Initialize AI Interviewer, click through questions, verify animated HUD telemetry gauges, complete interview, check leaderboard
+- [x] Employee Role Verification:
+  - [x] Complaints Page: submit grievance, verify AI sentiment analyzer tags and priority
+- [x] Verify no console errors or visual defects
+- [x] Detailed summary
